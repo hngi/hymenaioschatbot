@@ -1,0 +1,105 @@
+/*----------FIGMA DESIGN CSS SNIPPETS------------
+        background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%);
+        border-radius: 17px;
+
+        /*Colour for name prompt: rgba(147, 141, 141, 0.5);
+        BUDDIE text:
+                    color: #FFF;
+                    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+-------------------------------------------------*/
+
+
+/********GENERAL STYLES***********/
+/*********************************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%), url(img/Cloud.jpg)
+    no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+    height: 105.5vh;
+}
+
+h1{
+    color: #FFF;
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin-top: 2em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    font-size:2rem;
+}
+
+.nav-item{
+    padding:0px 10px;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
+
+a {
+	cursor: pointer;
+}
+
+.fab{
+    width:10px;
+    height:10px;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.container{
+    padding: 0;
+}
+
+.main-img{
+    width: 30em;
+    height: 23em;
+    margin-bottom: 10rem;
+    box-shadow: 10px 10px 5px grey;  
+}
+
+.i-phone{
+    width: 20em;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-phone{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.top-phone{
+   position: absolute;
+   right: 7em;
+   top: 0;
+}
+
+.left-div{
+    text-align: left;
+    color: #fff;
+}
+
+.right-div{
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+}

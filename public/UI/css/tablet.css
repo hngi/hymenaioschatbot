@@ -1,0 +1,44 @@
+/*tablet - 768px*/
+
+@media (max-width: 768px){
+	#bg-elevation{
+		width: 100%;
+		background: none;
+		border-radius: 0px;
+		margin-top: 0em;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+		padding-bottom: 50px;
+	}
+	
+	#nav-list > li > a{
+		font-size: 11px;
+	}
+	
+	#nav-list > p{
+		display: inherit;
+	}
+	
+	#nav-list{
+		list-style-type: none;
+		display: none;
+		position: fixed;
+		margin-top: -7.2em;
+		margin-left: 1em;
+		background-color: rgb(34, 222, 177);
+		padding: 40px;
+		border-radius: 0px 0px 10px 10px;
+	}
+	
+	#toggle{
+		display: inherit;
+	}
+	
+	#nav-list >li{
+		margin-left: 5px;
+	}
+	
+	body{
+		background-image: url(img/YourBuddie.png);
+		padding-top: 30px;
+	}
+} 

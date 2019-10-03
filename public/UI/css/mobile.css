@@ -1,0 +1,43 @@
+
+/*mobile - 420px*/
+
+@media (max-width: 420px){
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #bg-elevation{
+    padding: 0px;
+  }
+
+  #nav-list > p{
+    display: inherit;
+  }
+  
+  #chatroom{
+    width: 100%;
+    margin: auto;
+    border-radius: 0px;
+    height: 100;
+    background: none;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0);
+  }
+  
+  #toggle{
+    margin-left: 45%;
+  }
+  
+  #chat-footer{
+    padding-top: 10px;
+    width: 100%;
+  }
+  
+  #chat-body{
+    height: 88%;
+  }
+  
+  #message-box{
+    width: 100%;
+  }
+}

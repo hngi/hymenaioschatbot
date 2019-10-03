@@ -1,0 +1,114 @@
+body {
+	font-family:Montserrat;
+}
+body h4, h1, p{
+	color:#fff;
+}
+.main-container{
+	height:100%;
+	background: url(img/How\ It\ Works.png);
+}
+.nav-bars{
+	background:inherit;
+	height:4vh;
+}
+.nav-link{
+	color:#fff !important;
+}
+.twitter-box img{
+	height:3vh;
+	width:2vw;
+}
+.instagram-box img{
+	height:3vh;
+	width:1.3vw;
+}
+.facebook-box img{
+	height:3vh;
+	width:1vw;
+}
+.main-body{
+	min-height:94vh;
+}
+.science-buddie{
+	height:7vh;
+}
+.science-buddie h1{
+	font-size:25px;
+}
+.creat-box{
+	
+}
+.first-image{
+	min-height:26.9vh;
+	border: 1px solid transparent;
+}
+.first-image img{
+	height:26.9vh;
+	width:70%;
+}
+.second-image{
+	min-height:26.9vh;
+	border: 1px solid transparent;
+}
+.second-image img{
+	height:26.9vh;
+	width:70%;
+}
+.solution-box{
+	min-height:26.9vh;
+}
+.use-buddie-box{
+	min-height:26.9vh;
+}
+.last-image{
+	min-height:26.9vh;
+}
+.last-image img{
+	height:26.9vh;
+	width:60%;
+}
+.footer{
+	height:4vh;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .navs{
+        background:rgb(18,8,61,0.966);
+        z-index: 100;
+        border-radius:5px;
+    }
+    .link{
+        font-size:13px;
+        margin-left:1vw;
+    }
+    .forms img{
+    	width:3vw;
+    	height:2vh;
+    }
+    .science-buddie{
+    	margin-top:5vh;
+    }
+    .science-buddie h1{
+    	font-size:15px;
+    }
+    .creat-box h4{
+    	font-size:16px;
+    }
+     .creat-box p{
+    	font-size:12px;
+    }
+    .solution-box h4{
+    	font-size:16px;
+    }
+    .solution-box p{
+    	font-size:12px;
+    }
+    .use-buddie-box h4{
+    	font-size:16px;
+    }
+    .use-buddie-box p{
+    	font-size:12px;
+    }    
+}

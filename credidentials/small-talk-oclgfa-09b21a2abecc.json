@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "small-talk-oclgfa",
+  "private_key_id": "09b21a2abeccbf96182354f252503f1b2c868c2b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDGeJG/mvHvaPh\nQWat0oz59nAO0agk5w5AQQSEViSM/TWLiC8JXYzSnzF6a1r7RUXz1mfuzoCOIbr8\n1vSE0LQIK/Bw04ApNgdM7Mo9/FcT3B1iLnWZ9Nl3oLnFYGu4/lEzu+uGszipelOG\n+pwkvIzk/+BMpoYC+FD1n9EFdJWSl9oPIKdabyIIVm7GS0DFkqhjcnI4GUuFWE2F\n8y0UQE8W/dbsnVrDIu5F7mEFFRgz7AO3tEBoPAQNP5Cu1/V3lLYSJwxMNGDA1Zad\noynMGB5nNPl90L38ZCsFM9lmplvYTuV5KcGd+TpB5F5VgqSGMjqPkbCkEwTKb/J/\nJ/KWXxVhAgMBAAECggEAP9Yiyy7pDih3TDdthNd9KDah0L954GU3rP95HmHfQMCC\n+h47oblZ3/qVomQpF0lBy7huNl2cA6V2vM8Kn8B3/6p82DXj29ghSGK8A88ioM1n\nUd44vYC3fSR6VGIprRSNdjt5I5BVrGJpnSM33u9QvIcamYntFGCygMPjjQDqBdYV\n+TynM0pOAkn6u8k/BzvUwopRThiCcLBBnjYnD4CKzeu9CltAECHeuK6NKYtYlJ2A\nOB7UrX3CPA4uwyKgSavPKw06aaZMNNEYBvicwNuqKD6S/i902ycBbUFZmKcPZO0I\nivt6RionxyqvqsznoMruZJ+Qdj94ZrlzkUOrX5ViRwKBgQD0vdFfKqPvIE99opjy\n2hjz0a4LRECN/ah1bhuIYAHdBiiOPrag+NrEcuwSVbukC5/xcrR1cREd8Uwt63Wq\nDRyGFpk5clMQ6+wXD1n1NvMU91SBvTHbFgpq4CBBxkNiqszpitYkDl65jf2BdNpD\ngc6KBZPgyOkul5Wol57yhGjlEwKBgQDME3q+icdsOitIMlnfjlWGuMHFh3dvuC8g\njB/nKDSzQWv1UZKUSYiXJimOefR+317rA8kNTA5T4/eBty8udLSY7y/mKzatwVp/\nIZdyWJORYU2lqgo0o/BvevIecj428ORCzwq8GPkVwtlbRmbFytiKOmxAqe+7Ic/9\nBlz1Q0/OOwKBgAINzcIEs5eAJ+qgALSZC/iP2+wQSJJofI9vux9r3tgiAxkegZ3c\nOMnJRR3qRkbcKh12nvkVV9VufvsrrLMepQyjB+opgXT05ehToqeiLGwSn0zvb4mt\nJ6058EtdBJfBYzLajW2ECVt5S5VYi7RhVIBoB5OtW/eeIg1mKFlUryStAoGAeKeP\nq3VUJWWiz1WNk0HYyQUU808rSy8PFeQivI0l01F7nZez3N441nxml2j9J8Gyoaok\nRStRUUH3xIZka8fuOnk3zZKBCmvFsGJQ4vcBkDOCL87/p63Bane7DEspA1ya5/D2\n/Mya/8Wqsm9GNey+58Kw2+5c4TuVd5g6f3tjhJ8CgYEA7IOOwSBTwE/YAgngGV/+\npcAqqHwyUe/Fe52fnqaKCP77gnIxQOyKjpVx56A6P6+K0wkwkgbDJQfvlcPG0emR\noCVzCxoQZGOvDIFUyDO0ZYYsQ9P3vvOQwrx3lyeAhx+0GxwJ9BPRedRjBMYvex4Y\nyKDeSDX+nnm3rSAwKxedTHE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hymenaios-bisola@small-talk-oclgfa.iam.gserviceaccount.com",
+  "client_id": "116007202159273738752",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hymenaios-bisola%40small-talk-oclgfa.iam.gserviceaccount.com"
+}

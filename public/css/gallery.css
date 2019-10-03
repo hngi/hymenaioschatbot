@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 105.5vh;
+    overflow: hidden;
+    text-align: center;
+    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%) no-repeat, url(img/Cloud.jpg);
+}
+
+.container-fluid{
+    border-radius: 17px;
+    padding-bottom: 3%;
+    margin: auto 1%;
+}
+p,h1{
+    font-family: "Century Gothic", sans-serif;
+}
+
+p{
+    font-size: 1em;
+}
+
+ .navbar{
+    margin-bottom: 0;
+ }
+
+.navbar-nav > li{
+    position: relative;
+}
+
+.navbar-nav > li > a{
+    color: #fff;
+} 
+
+
+.navbar-nav .active a::after{
+    border-bottom: 3px solid #fff;
+    bottom: -5px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.nav-item{
+    padding:0px 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+a {
+	cursor: pointer;
+}
+
+.fab{
+    width:10px;
+    height:10px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+#carousel-testimonials{
+    color:white;
+    margin-top: 10vh;
+}
+
+
+.carousel-caption{
+    position: absolute;
+    top: 30vh;
+    z-index: 10;
+}
+
+.carousel-caption > p{
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+.multi-item-carousel{
+    overflow: hidden;
+}
+
+.multi-item-carousel img{
+    width:96%;
+    height: 50vh;
+    margin: auto 2%;
+}
+
+.multi-item-carousel .carousel-control-prev,
+.multi-item-carousel .carousel-control-next{
+    background: rgba(255, 255, 255, 0.3);
+    width: 24%;
+    z-index: 11;
+}
+
+.multi-item-carousel .carousel-item-next:not(.carousel-item-left),
+.multi-item-carousel .carousel-item-right.active{
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+}
+
+.multi-item-carousel .carousel-item-prev:not(.carousel-item-right),
+.multi-item-carousel .carousel-item-left.active{
+    -webkit-transform: translate3d(33%, 0, 0);
+    transform: translate3d(33%, 0, 0);
+}
+
+.multi-item-carousel .carousel-inner{
+   width: 150%;
+    left: -25%;
+}
+
+
+.multi-item-carousel .item-item{
+    float: left;
+    position: relative;
+    width: 33.333333%;
+}
+
+#arrow-right img,
+#arrow-left img{
+    background-color: #fff;
+    width:30%;
+    color: black;
+    height: 30%;
+    z-index: 5;
+}

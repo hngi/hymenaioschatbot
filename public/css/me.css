@@ -1,0 +1,65 @@
+body{
+  background-image: url("../img/yourbuddie.png");
+}
+
+
+
+footer{
+  margin-right: 10%;
+  background-color: #00000000 !important;
+}
+
+nav{
+  background-color: #10083a;
+}
+
+#header{
+  padding-top: 30px;
+}
+
+#chat-body{
+  overflow-y: visible;
+  overflow-x: hidden;
+  min-height: 500px;
+}
+
+#pro-name{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#send-btn{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+#messages{
+  list-style-type: none;
+}
+
+.balloon{
+  margin-bottom: 10px;
+  padding: 8px;
+  max-width: 60%;
+  min-width: 40%;
+}
+
+.user{
+  margin-left: 30%;
+  border-radius: 8px 0px 8px 8px;
+  background-color: #1fab98;
+  color: #ffffff;
+}
+
+.bot{
+  background-color: whitesmoke;
+  border-radius: 0px 8px 8px 8px;
+}
+
+#app{
+  margin-top: 10px;
+}

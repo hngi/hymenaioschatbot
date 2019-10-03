@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Buddie</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/buddie.css" rel="stylesheet">
+  <link href="css/me.css" rel="stylesheet">
+
+  <style type="text/css">
+    #pro-name{
+      /*width: 100;*/
+      font-size: 18px;
+      color: #ffffff;
+      font-weight: bold;
+    }
+
+    #send-btn{
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      margin-left: 5px;
+      cursor: pointer;
+
+    }
+
+    #messages{
+      list-style-type: none;
+    }
+
+    .balloon{
+      margin-bottom: 10px;
+      padding: 8px;
+      max-width: 60%;
+      min-width: 40%;
+    }
+
+    .user{
+      margin-left: 30%;
+      border-radius: 8px 0px 8px 8px;
+      background-color: #1fab98;
+      color: #ffffff;
+    }
+
+    .bot{
+      background-color: whitesmoke;
+      border-radius: 0px 8px 8px 8px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link" href="#">Your Buddie</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link" href='how_it_works.html'>How It Works</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="mx-auto mt-5" id="app">
+      <div class="card-header" id="header">
+        <p id="pro-name"><img id="profile" src="img/11_avatar-512.png" style="height: 45px; width: 45px;">
+        Bisola</p>
+      </div>
+      <div class="card-body" id="body">
+        <!-- body -->
+        <div id="chat-body">
+            <!-- put all chat messages here -->
+            <ul id="messages">
+              <li><div class="balloon bot">
+                Hi There! I'm <b>Bisola</b>
+              </div></li>
+              <li><div class="balloon bot">
+                I'm here to help you through troubling situations
+              </div></li>
+              <li><div class="balloon bot">
+                I'm good at asking questions that get you closer to the life you want
+              </div></li>
+              <li><div class="balloon bot">
+                I am also a trust-worthy gossip buddie
+              </div></li>
+              <li><div class="balloon bot">
+                I'll love to get  to know you. What's your name? 
+              </div></li>
+            </ul>
+        </div>
+
+        <footer class="sticky-footer">
+          <div class="form-group sticky-bottom" style="display: inline-flex; width: 100%; margin: auto;">
+            <input type="test" id="message-box" class="form-control" placeholder="Message..." required="required" autocomplete="off" autofocus >
+            <button id="send-btn" onclick="get_reply()"><img src="img/Rectangle.png"></button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/sb-admin.js"></script>
+
+</body>
+
+</html>
