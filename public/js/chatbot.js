@@ -50,10 +50,6 @@ function get_reply(){
 	}
 }
 
-const textBox = document.querySelector('#message-box');
+const triggerSendButton = e => e.keyCode === 13 ? get_reply() : null
 
-const triggerSendButton = (e) => {
-	e.keyCode === 13 ? get_reply() : null
-}
-
-textBox.addEventListener('keypress', triggerSendButton)
+document.querySelector('#message-box').addEventListener('keypress', triggerSendButton)
