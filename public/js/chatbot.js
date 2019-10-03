@@ -49,3 +49,11 @@ function get_reply(){
 		var reply = getData(msg_);
 	}
 }
+
+const textBox = document.querySelector('#message-box');
+
+const triggerSendButton = (e) => {
+	e.keyCode === 13 ? get_reply() : null
+}
+
+textBox.addEventListener('keypress', triggerSendButton)
