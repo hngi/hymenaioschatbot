@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 1 rem;
   margin-bottom: 1rem;
 }
 
@@ -161,7 +161,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #FFF;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10876,7 +10876,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 #landing{
-  background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%);
+  background: url(img/Homepage.png)
 }
 
 #tag-head{
@@ -10885,7 +10885,7 @@ form .row:first-child .floating-label-form-group {
 
 #tag-text{
   max-width: 400px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #tag-img{

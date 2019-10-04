@@ -10,7 +10,7 @@ body{
     height: 105.5vh;
     overflow: hidden;
     text-align: center;
-    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%) no-repeat, url(img/Cloud.jpg);
+    background: url(img/Gallery.png)
 }
 
 .container-fluid{

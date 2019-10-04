@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/gallery.css")}}>
+    <link rel="stylesheet" href="css/gallery.css")>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -16,37 +16,34 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colmenu"
-                        aria-controls="colmenu" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="colmenu">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="chat.html">Your Buddie</a></li>
-                            <li class="nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="how_it_works.html">How It Works</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> <i class="fab fa-facebook"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colmenu"
+                aria-controls="colmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="colmenu">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                                        Your Buddie
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="bisola.html">Bisola</a></li>
+                                        <li><a class="dropdown-item" href="trevor.html">Trevor</a></li>
+                                    </ul>
+                                </li>
+                    <li class="nav-item active"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="how_it_works.html">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+    
+            </div>
         </div>
+    </nav>
         <div class="container">
             <div class="row">
                 <div id="carousel-testimonials" class="carousel slide multi-item-carousel" data-ride="carousel"

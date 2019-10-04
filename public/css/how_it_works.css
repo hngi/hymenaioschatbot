@@ -6,7 +6,7 @@ body h4, h1, p{
 }
 .main-container{
 	height:100%;
-	background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.12) 100%);
+	background: url(img/HowItWorks.png);
 }
 .nav-bars{
 	background:inherit;
